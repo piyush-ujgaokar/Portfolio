@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: font1;
+    src: url('./assets/file\ \(1\).woff2');
+}
+@font-face {
+    font-family: font2;
+    src: url('./assets/file\ \(2\).woff2');
+}
+@font-face {
+    font-family: font3;
+    src: url('./assets/file.woff2');
+}
+
+@font-face {
+    font-family: a4;
+    src: url('./assets/a4.woff2');
+}
+@font-face {
+    font-family: u4;
+    src: url('./assets/u4.woff2');
+}
+@font-face {
+    font-family: u7;
+    src: url('./assets/u7.woff2');
+}
+@font-face {
+    font-family: u8;
+    src: url('./assets/u8.woff2');
+}
