@@ -2,30 +2,48 @@
 
 @font-face {
     font-family: font1;
-    src: url('./assets/file\ \(1\).woff2');
+    src: url('./assets/fonts/ \(1\).woff2');
 }
 @font-face {
     font-family: font2;
-    src: url('./assets/file\ \(2\).woff2');
+    src: url('./assets/fonts/ \(2\).woff2');
 }
 @font-face {
     font-family: font3;
-    src: url('./assets/file.woff2');
+    src: url('./assets/fonts//file.woff2');
 }
 
 @font-face {
     font-family: a4;
-    src: url('./assets/a4.woff2');
+    src: url('./assets/fonts//a4.woff2');
 }
 @font-face {
     font-family: u4;
-    src: url('./assets/u4.woff2');
+    src: url('./assets/fonts//u4.woff2');
 }
 @font-face {
     font-family: u7;
-    src: url('./assets/u7.woff2');
+    src: url('./assets/fonts//u7.woff2');
 }
 @font-face {
     font-family: u8;
-    src: url('./assets/u8.woff2');
+    src: url('./assets/fonts//u8.woff2');
+}
+
+
+#page1-in{
+    position: relative;
+    perspective: 1000px;
+}
+#section2{
+    position: relative;
+    perspective: 2000px;
+}
+#tiltDiv{
+    width: fit-content;
+    transform: rotateY(20deg);
+}
+
+.rotateText{
+    transform-origin: 100% 70%;
 }
