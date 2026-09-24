@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" fill="none">
+  <rect width="800" height="480" rx="16" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="798" height="478" rx="15" stroke="#E8E5DC" stroke-width="2"/>
+  <circle cx="40" cy="35" r="5" fill="#EF4444"/>
+  <circle cx="56" cy="35" r="5" fill="#F59E0B"/>
+  <circle cx="72" cy="35" r="5" fill="#10B981"/>
+  <rect x="110" y="24" width="420" height="22" rx="6" fill="#F5F2EA" stroke="#E8E5DC"/>
+  <text x="130" y="39" fill="#8C8A82" font-family="monospace" font-size="11">https://perplexity-ai-1-umbd.onrender.com</text>
+
+  <!-- Sidebar -->
+  <rect x="40" y="70" width="200" height="370" rx="12" fill="#F5F2EA" stroke="#E8E5DC"/>
+  <text x="60" y="105" fill="#1E1E1C" font-family="system-ui" font-size="14" font-weight="bold">Conversations</text>
+  <rect x="55" y="130" width="170" height="32" rx="6" fill="#FFFFFF" stroke="#E8E5DC"/>
+  <text x="70" y="151" fill="#1E1E1C" font-family="system-ui" font-size="12" font-weight="600">System Architecture</text>
+  <rect x="55" y="170" width="170" height="32" rx="6" fill="#F5F2EA"/>
+  <text x="70" y="191" fill="#6E6E6A" font-family="system-ui" font-size="12">Socket Performance</text>
+
+  <!-- Chat area -->
+  <rect x="260" y="70" width="500" height="370" rx="12" fill="#FFFFFF" stroke="#E8E5DC"/>
+  <!-- User Message -->
+  <rect x="420" y="100" width="320" height="46" rx="12" fill="#1E1E1C"/>
+  <text x="435" y="128" fill="#F5F2EA" font-family="system-ui" font-size="12">How does 4-layer React architecture optimize re-renders?</text>
+  <!-- AI Bot Response -->
+  <rect x="280" y="165" width="440" height="150" rx="12" fill="#F5F2EA" stroke="#E8E5DC"/>
+  <text x="300" y="195" fill="#1E1E1C" font-family="monospace" font-size="11" font-weight="bold">STREAMING VIA SOCKET.IO [LATENCY 80ms]</text>
+  <text x="300" y="225" fill="#1E1E1C" font-family="system-ui" font-size="12">1. UI Layer stays purely presentational with memoization.</text>
+  <text x="300" y="250" fill="#1E1E1C" font-family="system-ui" font-size="12">2. Custom Hooks throttle socket token bursts every 30ms.</text>
+  <text x="300" y="275" fill="#1E1E1C" font-family="system-ui" font-size="12">3. Redux State maintains cached conversations cleanly.</text>
+
+  <!-- Input bar -->
+  <rect x="280" y="370" width="460" height="45" rx="10" fill="#F5F2EA" stroke="#E8E5DC"/>
+  <text x="300" y="398" fill="#8C8A82" font-family="system-ui" font-size="12">Ask Gemini anything...</text>
+</svg>

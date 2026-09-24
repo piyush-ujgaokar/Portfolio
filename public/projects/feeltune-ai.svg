@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" fill="none">
+  <rect width="800" height="480" rx="16" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="798" height="478" rx="15" stroke="#E8E5DC" stroke-width="2"/>
+  <circle cx="40" cy="35" r="5" fill="#EF4444"/>
+  <circle cx="56" cy="35" r="5" fill="#F59E0B"/>
+  <circle cx="72" cy="35" r="5" fill="#10B981"/>
+  <rect x="110" y="24" width="420" height="22" rx="6" fill="#F5F2EA" stroke="#E8E5DC"/>
+  <text x="130" y="39" fill="#8C8A82" font-family="monospace" font-size="11">https://moody-songs.onrender.com</text>
+
+  <!-- Player Visualizer Deck -->
+  <rect x="50" y="80" width="700" height="350" rx="16" fill="#F5F2EA" stroke="#E8E5DC"/>
+  <text x="80" y="125" fill="#1E1E1C" font-family="system-ui" font-size="20" font-weight="bold">FeelTune Mood Harmonizer</text>
+  <rect x="80" y="145" width="160" height="26" rx="13" fill="#FFFFFF" stroke="#E8E5DC"/>
+  <text x="96" y="162" fill="#1E1E1C" font-family="monospace" font-size="11" font-weight="bold">DETECTED: DEEP FOCUS</text>
+
+  <!-- Waveform Bars -->
+  <g transform="translate(80, 200)">
+    <rect x="0" y="30" width="8" height="60" rx="4" fill="#1E1E1C"/>
+    <rect x="16" y="10" width="8" height="80" rx="4" fill="#6E6E6A"/>
+    <rect x="32" y="40" width="8" height="50" rx="4" fill="#8C8A82"/>
+    <rect x="48" y="0" width="8" height="90" rx="4" fill="#1E1E1C"/>
+    <rect x="64" y="20" width="8" height="70" rx="4" fill="#6E6E6A"/>
+    <rect x="80" y="50" width="8" height="40" rx="4" fill="#8C8A82"/>
+    <rect x="96" y="15" width="8" height="75" rx="4" fill="#1E1E1C"/>
+    <rect x="112" y="35" width="8" height="55" rx="4" fill="#6E6E6A"/>
+    <rect x="128" y="5" width="8" height="85" rx="4" fill="#8C8A82"/>
+    <rect x="144" y="45" width="8" height="45" rx="4" fill="#1E1E1C"/>
+    <rect x="160" y="25" width="8" height="65" rx="4" fill="#6E6E6A"/>
+    <rect x="176" y="55" width="8" height="35" rx="4" fill="#8C8A82"/>
+  </g>
+
+  <!-- Curated Playlist Card -->
+  <rect x="320" y="180" width="400" height="210" rx="12" fill="#FFFFFF" stroke="#E8E5DC"/>
+  <text x="340" y="215" fill="#1E1E1C" font-family="system-ui" font-size="14" font-weight="bold">AI Recommended Soundtracks</text>
+  <text x="340" y="245" fill="#6E6E6A" font-family="system-ui" font-size="12">1. Ambient Code Flow • Chill Acoustic (95 BPM)</text>
+  <text x="340" y="275" fill="#6E6E6A" font-family="system-ui" font-size="12">2. Architectural Echoes • Deep Focus (60 Hz)</text>
+  <text x="340" y="305" fill="#6E6E6A" font-family="system-ui" font-size="12">3. Kinetic Morning • Minimal Piano (110 BPM)</text>
+  <rect x="340" y="335" width="130" height="34" rx="8" fill="#1E1E1C"/>
+  <text x="365" y="357" fill="#F5F2EA" font-family="system-ui" font-size="12" font-weight="bold">Play Preview</text>
+</svg>

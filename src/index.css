@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F5F2EA;
+    --surface-card: #FFFFFF;
+    --border-warm: #E8E5DC;
+    --text-primary: #1E1E1C;
+    --text-body: #6E6E6A;
+    --text-muted: #8C8A82;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #F5F2EA;
+    color: #1E1E1C;
+    font-family: 'Manrope', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #F5F2EA;
+    color: #1E1E1C;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  /* Refined Editorial Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F5F2EA;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #8C8A82;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6E6E6A;
+  }
+}
+
+@layer components {
+  /* Warm Minimalist Editorial Card System */
+  .editorial-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E8E5DC;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 30px rgba(30, 30, 28, 0.05);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .editorial-card:hover {
+    border-color: rgba(140, 138, 130, 0.5);
+    box-shadow: 0 20px 40px -10px rgba(30, 30, 28, 0.10);
+    transform: translateY(-3px);
+  }
+
+  .glass-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E8E5DC;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 30px rgba(30, 30, 28, 0.05);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-card:hover {
+    border-color: rgba(140, 138, 130, 0.5);
+    box-shadow: 0 20px 40px -10px rgba(30, 30, 28, 0.10);
+    transform: translateY(-3px);
+  }
+
+  .glass-pill {
+    background-color: #FFFFFF;
+    border: 1px solid #E8E5DC;
+    box-shadow: 0 2px 8px rgba(30, 30, 28, 0.04);
+  }
+
+  .glass-nav {
+    background-color: rgba(245, 242, 234, 0.90);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid #E8E5DC;
+  }
+
+  /* Kinetic typography styling */
+  .text-outline {
+    -webkit-text-stroke: 1.5px #1E1E1C;
+    color: transparent;
+    transition: all 0.25s ease;
+  }
+
+  .text-outline:hover {
+    color: #1E1E1C;
+    -webkit-text-stroke: 1.5px transparent;
+  }
+}
+
+/* Subtle architectural dot grid */
+.bg-grid-pattern {
+  background-size: 28px 28px;
+  background-image: 
+    linear-gradient(to right, rgba(30, 30, 28, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 30, 28, 0.035) 1px, transparent 1px);
+}
+
+/* Lenis smooth scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
