@@ -21,7 +21,7 @@ export const PERSONAL_INFO = {
   socialLinks: {
     github: "https://github.com/piyush-ujgaokar",
     linkedin: "https://www.linkedin.com/in/piyush-ujgaokar/",
-    email: "mailto:piyushuj@gmail.com",
+    email: "mailto:piyushujgaokar544@gmail.com",
     phone: "tel:+919822070357",
   },
   stats: [
