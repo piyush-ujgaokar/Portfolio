@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   subRole: "MERN Stack + AI Integrations",
   headline: "Crafting High-Performance Scalable Web Apps with Tactile Design & AI Integrations",
   bio: "Full Stack Developer with strong hands-on expertise in the MERN stack and a passion for engineering scalable web applications with AI-driven features. Experienced in architecting clean 4-layer React systems, designing robust RESTful APIs, and bringing tactile, human-crafted web experiences to life.",
-  email: "piyushuj@gmail.com",
+  email: "piyushujgaokar544@gmail.com",
   phone: "+91-9822070357",
   location: "Nagpur, India",
   timezone: "IST (UTC+5:30)",
@@ -301,7 +301,7 @@ export const EDUCATION = [
 export const CERTIFICATIONS = [
   {
     title: "Full-Stack Development - Cohort Batch (1)",
-    issuer: "Sheryians Coding School",
+    issuer: "",
     issueDate: "Nov 2025",
     credentialId: "SCS-FSD-2025-C1",
     description: "Intensive professional cohort covering modern Full-Stack development: MERN architecture, microservices, advanced asynchronous JavaScript, REST design, database modeling, and real-world system deployments.",
@@ -309,7 +309,7 @@ export const CERTIFICATIONS = [
   },
   {
     title: "Frontend Development Mastery",
-    issuer: "Sheryians Coding School",
+    issuer: "",
     issueDate: "Nov 2025",
     credentialId: "SCS-FED-2025",
     description: "Deep dive into production-grade React.js, advanced CSS architecture, modern component design systems, state machines, and performant web animations.",
