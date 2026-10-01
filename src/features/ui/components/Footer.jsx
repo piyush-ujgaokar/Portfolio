@@ -147,7 +147,7 @@ export const Footer = () => {
                 className="flex items-center gap-2 text-[#6E6E6A] hover:text-[#1E1E1C] font-medium transition-colors"
               >
                 <Mail size={15} />
-                <span>piyushuj@gmail.com</span>
+                <span>piyushujgaokar544@gmail.com</span>
               </a>
               <a
                 href={PERSONAL_INFO.socialLinks.phone}
